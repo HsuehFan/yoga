@@ -7,6 +7,145 @@
 /* 自定值  14px */
 /* 自定值  12px */
 /* 自定值  36px */
+@font-face {
+  font-family: 'Silom';
+  src: local("Silom");
+  src: url("../fonts/Silom.ttf") format("opentype");
+}
+
+.fy-silom {
+  font-family: 'Silom';
+}
+
+@font-face {
+  font-family: 'Noto Sans TC', sans-serif;
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Black.otf") format("truetype");
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Bold.otf") format("truetype");
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Light.otf") format("truetype");
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Medium.otf") format("truetype");
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Regular.otf") format("truetype");
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Thin.otf") format("truetype");
+}
+
+.fy-noto {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.text-rose {
+  color: #907A7B !important;
+}
+
+.bg-rose {
+  background-color: #907A7B !important;
+}
+
+.bg-rose-hover:hover {
+  background-color: #b3a4a4 !important;
+  color: #fff !important;
+}
+
+.bg-rose-hover2:hover, .bg-rose-hover2 :active {
+  background-color: #907A7B !important;
+  color: #fff !important;
+}
+
+.scale-hover {
+  transition-duration: 0.1s;
+}
+
+.scale-hover:hover, .scale-hover :active {
+  transform: scale(1.05);
+  opacity: 85%;
+}
+
+.rounded-sp {
+  border-radius: 16px !important;
+}
+
+.rounded-top-sp {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.btn-md {
+  padding: 12px 20px !important;
+}
+
+@media (min-width: 768px) {
+  .btn-md {
+    padding: 12px 13px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-md {
+    padding: 12px 48px !important;
+  }
+}
+
+.hover-sp:hover {
+  background-color: #907A7B;
+  color: #F5F0E7;
+}
+
+.hover-sp2 {
+  color: #707070;
+}
+
+.hover-sp2:hover {
+  background-color: #C0A4A5;
+  border-color: #C0A4A5;
+  color: #fff;
+}
+
+.hover-sp3 {
+  color: #fff;
+}
+
+.hover-sp3:hover {
+  background-color: #907A7B;
+  border-color: #907A7B;
+  color: #fff;
+}
+
+.reservation {
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .reservation {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reservation {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+}
+
+.check-circle {
+  min-width: 48px;
+  min-height: 48px;
+  margin-bottom: 20px;
+  background-image: url("../images/check_circle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.arrow-down {
+  min-width: 16px;
+  min-height: 9.88px;
+  background-image: url("../images/chevron-down-solid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -17588,145 +17727,6 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-}
-
-@font-face {
-  font-family: 'Silom';
-  src: local("Silom");
-  src: url("../fonts/Silom.ttf") format("opentype");
-}
-
-.fy-silom {
-  font-family: 'Silom';
-}
-
-@font-face {
-  font-family: 'Noto Sans TC', sans-serif;
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Black.otf") format("truetype");
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Bold.otf") format("truetype");
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Light.otf") format("truetype");
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Medium.otf") format("truetype");
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Regular.otf") format("truetype");
-  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Thin.otf") format("truetype");
-}
-
-.fy-noto {
-  font-family: 'Noto Sans TC', sans-serif;
-}
-
-.text-rose {
-  color: #907A7B !important;
-}
-
-.bg-rose {
-  background-color: #907A7B !important;
-}
-
-.bg-rose-hover:hover {
-  background-color: #b3a4a4 !important;
-  color: #fff !important;
-}
-
-.bg-rose-hover2:hover {
-  background-color: #907A7B !important;
-  color: #fff !important;
-}
-
-.scale-hover {
-  transition-duration: 0.1s;
-}
-
-.scale-hover:hover, .scale-hover :active {
-  transform: scale(1.05);
-  opacity: 85%;
-}
-
-.rounded-sp {
-  border-radius: 16px !important;
-}
-
-.rounded-top-sp {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-}
-
-.btn-md {
-  padding: 12px 20px !important;
-}
-
-@media (min-width: 768px) {
-  .btn-md {
-    padding: 12px 13px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .btn-md {
-    padding: 12px 48px !important;
-  }
-}
-
-.hover-sp:hover {
-  background-color: #907A7B;
-  color: #F5F0E7;
-}
-
-.hover-sp2 {
-  color: #707070;
-}
-
-.hover-sp2:hover {
-  background-color: #C0A4A5;
-  border-color: #C0A4A5;
-  color: #fff;
-}
-
-.hover-sp3 {
-  color: #fff;
-}
-
-.hover-sp3:hover {
-  background-color: #907A7B;
-  border-color: #907A7B;
-  color: #fff;
-}
-
-.reservation {
-  padding-top: 48px;
-  padding-bottom: 88px;
-}
-
-@media (min-width: 768px) {
-  .reservation {
-    padding-top: 64px;
-    padding-bottom: 80px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .reservation {
-    padding-top: 64px;
-    padding-bottom: 104px;
-  }
-}
-
-.check-circle {
-  min-width: 48px;
-  min-height: 48px;
-  margin-bottom: 20px;
-  background-image: url("../images/check_circle.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.arrow-down {
-  min-width: 16px;
-  min-height: 9.88px;
-  background-image: url("../images/chevron-down-solid.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
 .navbar-brand {
