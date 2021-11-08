@@ -7,61 +7,6 @@
 /* 自定值  14px */
 /* 自定值  12px */
 /* 自定值  36px */
-.btn-md {
-  padding: 12px 20px !important;
-}
-
-@media (min-width: 768px) {
-  .btn-md {
-    padding: 12px 13px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .btn-md {
-    padding: 12px 48px !important;
-  }
-}
-
-.reservation {
-  padding-top: 48px;
-  padding-bottom: 88px;
-}
-
-@media (min-width: 768px) {
-  .reservation {
-    padding-top: 64px;
-    padding-bottom: 80px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .reservation {
-    padding-top: 64px;
-    padding-bottom: 104px;
-  }
-}
-
-.reservation_form {
-  padding-top: 24px;
-}
-
-@media (min-width: 768px) {
-  .reservation_form {
-    padding-top: 27px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .reservation_form {
-    padding-top: 35px;
-  }
-}
-
-.reservation_form input:checked {
-  color: #907A7B;
-}
-
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -17669,29 +17614,6 @@ fieldset:disabled .btn {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-.navbar-brand {
-  display: block;
-  width: 96px;
-  height: 31px;
-  background-image: url("../images/logo.png");
-  text-indent: 101%;
-  overflow: hidden;
-  word-wrap: nowrap;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.toggler-img {
-  display: block;
-  width: 33px;
-  height: 25.67px;
-  background-image: url("../images/icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .text-rose {
   color: #907A7B !important;
 }
@@ -17705,13 +17627,43 @@ fieldset:disabled .btn {
   color: #fff !important;
 }
 
+.bg-rose-hover2:hover {
+  background-color: #907A7B !important;
+  color: #fff !important;
+}
+
+.scale-hover {
+  transition-duration: 0.1s;
+}
+
+.scale-hover:hover, .scale-hover :active {
+  transform: scale(1.05);
+  opacity: 85%;
+}
+
 .rounded-sp {
-  border-radius: 16px;
+  border-radius: 16px !important;
 }
 
 .rounded-top-sp {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+}
+
+.btn-md {
+  padding: 12px 20px !important;
+}
+
+@media (min-width: 768px) {
+  .btn-md {
+    padding: 12px 13px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-md {
+    padding: 12px 48px !important;
+  }
 }
 
 .hover-sp:hover {
@@ -17737,6 +17689,67 @@ fieldset:disabled .btn {
   background-color: #907A7B;
   border-color: #907A7B;
   color: #fff;
+}
+
+.reservation {
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .reservation {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reservation {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+}
+
+.check-circle {
+  min-width: 48px;
+  min-height: 48px;
+  margin-bottom: 20px;
+  background-image: url("../images/check_circle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.arrow-down {
+  min-width: 16px;
+  min-height: 9.88px;
+  background-image: url("../images/chevron-down-solid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.navbar-brand {
+  display: block;
+  width: 96px;
+  height: 31px;
+  background-image: url("../images/logo.png");
+  text-indent: 101%;
+  overflow: hidden;
+  word-wrap: nowrap;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.toggler-img {
+  display: block;
+  width: 33px;
+  height: 25.67px;
+  background-image: url("../images/icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .header {
