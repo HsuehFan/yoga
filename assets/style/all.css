@@ -84,28 +84,28 @@
 }
 
 .hover-sp:hover {
-  background-color: #907A7B;
-  color: #F5F0E7;
+  background-color: #907A7B !important;
+  color: #F5F0E7 !important;
 }
 
 .hover-sp2 {
-  color: #707070;
+  color: #707070 !important;
 }
 
 .hover-sp2:hover {
-  background-color: #C0A4A5;
-  border-color: #C0A4A5;
-  color: #fff;
+  background-color: #C0A4A5 !important;
+  border-color: #C0A4A5 !important;
+  color: #fff !important;
 }
 
 .hover-sp3 {
-  color: #fff;
+  color: #fff !important;
 }
 
 .hover-sp3:hover {
-  background-color: #907A7B;
-  border-color: #907A7B;
-  color: #fff;
+  background-color: #907A7B !important;
+  border-color: #907A7B !important;
+  color: #fff !important;
 }
 
 .reservation {
@@ -144,6 +144,41 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.sort-down-area {
+  width: 40px;
+  height: 40px;
+  padding: 16.67px 11.67px 15px;
+}
+
+.sort-down {
+  width: 16.67;
+  height: 8.33px;
+  background-image: url("../images/sort-down-solid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.check-circle-white {
+  min-width: 36px;
+  min-height: 36px;
+  margin-bottom: px;
+  background-image: url("../images/chevron-down-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.check-circle-Alto {
+  min-width: 36px;
+  min-height: 36px;
+  margin-bottom: px;
+  background-image: url("../images/chevron-down-Alto.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /*!
