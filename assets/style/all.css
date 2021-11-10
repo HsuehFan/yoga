@@ -18028,14 +18028,6 @@ fieldset:disabled .btn {
   border: 2px solid #C0A4A5 !important;
 }
 
-.con5 .btn-primary:hover {
-  background-color: #907A7B !important;
-}
-
-.con5 .btn-primary a:hover {
-  color: #fff !important;
-}
-
 .cardFace {
   min-height: 248.5px;
   background-size: cover;
@@ -18071,10 +18063,6 @@ fieldset:disabled .btn {
 
 .con5-bg3 {
   background-image: url("../images/woman_in_blue_leggings_and_black_tank_top_doing_yoga.jpg");
-}
-
-.con5 a:hover {
-  color: #000 !important;
 }
 
 .personCard {
