@@ -85,6 +85,7 @@
 
 .hover-sp:hover {
   background-color: #907A7B !important;
+  border-color: #907A7B !important;
   color: #F5F0E7 !important;
 }
 
@@ -179,6 +180,161 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.course {
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .course {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .course {
+    padding-top: 64px;
+    padding-bottom: 113px;
+  }
+}
+
+.course_header_img {
+  min-height: 218px;
+  background-image: url("../images/photo-1540206276207-3af25c08abc4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+@media (min-width: 768px) {
+  .course_header_img {
+    min-height: 341px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .course_header_img {
+    min-height: 341px;
+  }
+}
+
+.option-ico {
+  border: 0px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 106px;
+  height: 36px;
+  background-image: url("../images/options-ico.png");
+  background-size: 6px 10.6px;
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+
+.card-list .li {
+  padding: 24px;
+  padding-top: 106px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-list .li:nth-child(1) {
+  background-image: url("../images/woman_doing_yoga_beside_wall.jpg");
+  background-position: 0 70%;
+}
+
+.card-list .li:nth-child(2) {
+  background-image: url("../images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(3) {
+  background-image: url("../images/leggings_doing_yoga.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(4) {
+  background-image: url("../images/eggings_bending_her_body.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(5) {
+  background-image: url("../images/two_woman_dong_fitness_exercise.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(6) {
+  background-image: url("../images/woman_doing_yoga.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(7) {
+  background-image: url("../images/woman_in_white_tank_top_and_white_pants.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li:nth-child(8) {
+  background-image: url("../images/carl_barcelo_nqUHQkuVj3c_unsplash.jpg");
+  background-position: 0% 50%;
+}
+
+.card-list .li .badge {
+  position: absolute;
+  top: -14.5px;
+}
+
+.cardTypeA {
+  min-width: 345px;
+  height: 196px;
+}
+
+@media (min-width: 768px) {
+  .cardTypeA {
+    min-width: 330px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardTypeA {
+    min-width: 445px;
+  }
+}
+
+.cardTypeB {
+  min-width: 345px;
+  height: 196px;
+}
+
+@media (min-width: 768px) {
+  .cardTypeB {
+    min-width: 330px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardTypeB {
+    min-width: 350px;
+  }
+}
+
+.course-aside {
+  min-width: 345px;
+}
+
+@media (min-width: 768px) {
+  .course-aside {
+    min-width: 330px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .course-aside {
+    min-width: 255px;
+  }
 }
 
 /*!
@@ -18128,11 +18284,11 @@ button.next_btn, button.prev_btn {
   display: block;
   font-size: 45px;
   font-weight: bold;
-  color: #D5CCC7;
+  color: #907A7B;
 }
 
 button.next_btn:hover, button.next_btn :active, button.next_btn :focus, button.prev_btn:hover, button.prev_btn :active, button.prev_btn :focus {
-  color: #907A7B !important;
+  color: #D5CCC7 !important;
 }
 
 .community-menu {
