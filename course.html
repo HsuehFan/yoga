@@ -36,7 +36,7 @@
           </ul>
           <form class="d-flex mt-5 mt-md-5 mt-xl-0">
             <a href="./reservation.html" class="d-inline-block btn btn-outline-secondary border border-1 rounded-sp me-5 py-2 px-5 bg-rose-hover2">立即預約</a>
-            <a href="./reservation.html" class="d-inline-block btn btn-outline-secondary border border-1 rounded-sp py-2 px-5 bg-rose-hover2">聯絡我們</a>
+            <a href="#" class="d-inline-block btn btn-outline-secondary border border-1 rounded-sp py-2 px-5 bg-rose-hover2">聯絡我們</a>
           
           </form>
         </div>
@@ -59,14 +59,14 @@
             <div class="fs-3 text-rose text-center mb-8 mb-xl-12">課程介紹</div>
             <!-- header area -->
             <div class="row g-0 flex-column flex-md-row justify-content-between mb-17 mb-md-20 mb-xl-19">
-                <div class="col col-md-5 col-xl-7 course_header_img rounded-sp me-0 me-md-11"></div>
+                <div class="col col-md-5 col-xl-7 course_header_img rounded-sp me-0 me-md-11 mb-2 mb-md-0"></div>
                 <div class="col text-rose">
-                    <div class="fs-3">本月限定課程 - 空中瑜珈</div>
-                    <div class="d-flex align-items-center pb-1">
+                    <div class="fs-3 mb-1">本月限定課程 - 空中瑜珈</div>
+                    <div class="d-flex align-items-center mb-5">
                         <div class="text-primary me-2">授課老師：Carol Tang</div>
                         <div class="badge bg-rose rounded-sp lh-base fw-light fs-7 px-5 py-1">60 min</div>
                     </div>
-                    <ul class="p-0 mt-2 mb-5">
+                    <ul class="p-0 mb-5">
                         <li>使用掛布懸掛在半空，進行哈達瑜珈體位法練習</li>
                         <li>藉由地心引力的重力原理</li>
                         <li>鍛鍊核心肌群，舒緩脊椎壓力</li>
@@ -98,15 +98,15 @@
             </div>
         </div><!-- search area end-->
         
-        <div class="px-4 px-md-14 px-xl-21 border-bottom pb-17 pb-xl-19 pt-3">
+        <div class="px-4 px-md-14 px-xl-21 border-bottom pb-17 pb-xl-19 pt-3 mb-12 mb-xl-15">
             <div class="d-flex flex-column flex-xl-row justify-content-center "> 
-                <div class="d-flex flex-column flex-md-row card-list flex-nowrap flex-md-wrap g-0 me-0 me-xl-11 text-white">
-                        
-                    <div class="li cardTypeA rounded-sp me-0 me-md-11 mb-11">
+                <div class="d-flex flex-column flex-md-row card-list flex-nowrap flex-md-wrap g-0 me-0 me-xl-11 text-white mb-12 mb-md-15 mb-xl-0">
+                    <!-- Button trigger modal -->
+                    <a type="button" class="li cardTypeA rounded-sp me-0 me-md-11 mb-11 d-line-block"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="badge bg-primary rounded-sp lh-base fw-light fs-7 px-5 py-1">60 min</div>
-                        <div class="fs-3">基礎 Basic</div>
-                        <div class="span">授課老師：Carol Tang</div>
-                    </div>
+                        <div class="fs-3 text-white">基礎 Basic</div>
+                        <div class="span text-white">授課老師：Carol Tang</div>
+                    </a><!-- Button trigger modal end-->
                     <div class="li cardTypeB rounded-sp mb-11">
                         <div class="badge bg-primary rounded-sp lh-base fw-light fs-7 px-5 py-1">60 min</div>
                         <div class="fs-3">艾揚格 Iyengar</div>
@@ -132,7 +132,7 @@
                         <div class="fs-3">阿斯坦加 Ashtanga</div>
                         <div class="span">授課老師：Kanae</div>
                     </div>
-                    <div class="li cardTypeB rounded-sp me-0 me-md-11 mb-11">
+                    <div class="li cardTypeB rounded-sp me-0 me-md-11">
                         <div class="badge bg-primary rounded-sp lh-base fw-light fs-7 px-5 py-1">60 min</div>
                         <div class="fs-3">陰陽 Yin Yang</div>
                         <div class="span">授課老師：Asa Chen</div>
@@ -151,6 +151,34 @@
                     <div class="mb-2">運動中請保持微收小腹的原則，肩膀放鬆、頭頂向上延伸，請跟隨教練指示，配合呼吸一步步的確實練習。</div>
                     <div class="mb-2">運動過程中若感到任何不適，請馬上停止且與老師商量討論。</div>
                     <div class="mb-2">若懷孕或特殊疾病請先告知。</div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl modal-md">
+                <div class="modal-content">
+                    <!-- course detail -->
+                    <div class="rounded-sp px-5 ps-md-8 pe-md-12 px-xl-18 py-12 py-md-19">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="d-flex justify-content-center justify-content-md-start">
+                                <div class="course-detail-img rounded-sp me-0 me-md-6 me-xl-15 mb-5 mb-md-0"></div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center text-white">
+                                <div class="fs-3">基礎 Basic</div>
+                                <div class="d-flex align-items-center mb-5">
+                                    <div class=" me-2">授課老師：Carol Tang</div>
+                                    <div class="badge bg-rose rounded-sp lh-base fw-light fs-7 px-5 py-1">60 min</div>
+                                </div>
+                                <ul class="p-0 mb-5 ">
+                                    <li>使用掛布懸掛在半空，進行哈達瑜珈體位法練習，藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力</li>
+                                    <li>訓練身體協調性，深層放鬆身體。</li>
+                                    <li>課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。</li>
+                                </ul>
+                                <a href="#" class="col-4 btn btn-warning rounded-5 text-rose bg-rose-hover2 px-5 py-2">立即預約</a>
+                            </div>
+                        </div><!-- course detail end-->
+                    </div>
+                </div>
                 </div>
             </div>
         </div><!-- course list area-->
@@ -184,7 +212,7 @@
             </ul>
         </div>
                 <!-- line-menu-area -->
-        <a href="./course.html" class="fs-6 mb-2">課程介紹</a>
+        <a href="./course.html" class="d-inline-block fs-6 mb-2 text-white">課程介紹</a>
         <div class="fs-6 mb-2">瑜珈空間</div>
         <div class="col col-md-7 d-md-flex justify-content-md-between align-items-md-baseline">
           <div class="fs-6 mb-2">當月課表</div>

@@ -47,6 +47,7 @@
 .bg-rose-hover2:hover, .bg-rose-hover2 :active {
   background-color: #907A7B !important;
   color: #fff !important;
+  border-color: #907A7B !important;
 }
 
 .scale-hover {
@@ -334,6 +335,29 @@
 @media (min-width: 1200px) {
   .course-aside {
     min-width: 255px;
+  }
+}
+
+.course-detail-img {
+  width: 165px;
+  min-height: 165px;
+  background-image: url("../images/photo-1540206276207-3af25c08abc4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+@media (min-width: 768px) {
+  .course-detail-img {
+    min-width: 264px;
+    min-height: 418px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .course-detail-img {
+    min-width: 418px;
+    min-height: 418px;
   }
 }
 
@@ -6146,13 +6170,13 @@ fieldset:disabled .btn {
 }
 
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .pagination-sm .page-link {
@@ -6834,7 +6858,7 @@ fieldset:disabled .btn {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 0.875rem;
   pointer-events: none;
 }
 
@@ -6858,7 +6882,7 @@ fieldset:disabled .btn {
 }
 
 .modal-dialog-scrollable {
-  height: calc(100% - 1rem);
+  height: calc(100% - 1.75rem);
 }
 
 .modal-dialog-scrollable .modal-content {
@@ -6873,7 +6897,7 @@ fieldset:disabled .btn {
 .modal-dialog-centered {
   display: flex;
   align-items: center;
-  min-height: calc(100% - 1rem);
+  min-height: calc(100% - 1.75rem);
 }
 
 .modal-content {
@@ -6882,10 +6906,10 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #C0A4A5;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   outline: 0;
 }
 
@@ -6914,8 +6938,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 .modal-header .btn-close {
@@ -6942,8 +6966,8 @@ fieldset:disabled .btn {
   justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
 }
 
 .modal-footer > * {
@@ -6952,7 +6976,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 692px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -6962,20 +6986,20 @@ fieldset:disabled .btn {
     min-height: calc(100% - 3.5rem);
   }
   .modal-sm {
-    max-width: 300px;
+    max-width: 347px;
   }
 }
 
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
-    max-width: 800px;
+    max-width: 922px;
   }
 }
 
 @media (min-width: 1200px) {
   .modal-xl {
-    max-width: 1140px;
+    max-width: 922px;
   }
 }
 
@@ -7674,7 +7698,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   max-width: 100%;
   visibility: hidden;
-  background-color: #fff;
+  background-color: #C0A4A5;
   background-clip: padding-box;
   outline: 0;
   transition: transform 0.3s ease-in-out;
