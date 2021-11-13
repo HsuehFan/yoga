@@ -235,7 +235,7 @@
   background-position: 90% center;
 }
 
-.card-list .li {
+.card-list li {
   padding: 24px;
   padding-top: 106px;
   position: relative;
@@ -243,47 +243,47 @@
   background-repeat: no-repeat;
 }
 
-.card-list .li:nth-child(1) {
+.card-list li:nth-child(1) {
   background-image: url("../images/woman_doing_yoga_beside_wall.jpg");
   background-position: 0 70%;
 }
 
-.card-list .li:nth-child(2) {
+.card-list li:nth-child(2) {
   background-image: url("../images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(3) {
+.card-list li:nth-child(3) {
   background-image: url("../images/leggings_doing_yoga.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(4) {
+.card-list li:nth-child(4) {
   background-image: url("../images/eggings_bending_her_body.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(5) {
+.card-list li:nth-child(5) {
   background-image: url("../images/two_woman_dong_fitness_exercise.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(6) {
+.card-list li:nth-child(6) {
   background-image: url("../images/woman_doing_yoga.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(7) {
+.card-list li:nth-child(7) {
   background-image: url("../images/woman_in_white_tank_top_and_white_pants.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li:nth-child(8) {
+.card-list li:nth-child(8) {
   background-image: url("../images/carl_barcelo_nqUHQkuVj3c_unsplash.jpg");
   background-position: 0% 50%;
 }
 
-.card-list .li .badge {
+.card-list li .badge {
   position: absolute;
   top: -14.5px;
 }
