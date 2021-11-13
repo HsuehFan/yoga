@@ -255,7 +255,7 @@
 
 .card-list li:nth-child(3) {
   background-image: url("../images/leggings_doing_yoga.jpg");
-  background-position: 0% 50%;
+  background-position: 0% 90%;
 }
 
 .card-list li:nth-child(4) {
@@ -265,7 +265,7 @@
 
 .card-list li:nth-child(5) {
   background-image: url("../images/two_woman_dong_fitness_exercise.jpg");
-  background-position: 0% 50%;
+  background-position: 0% 85%;
 }
 
 .card-list li:nth-child(6) {
@@ -275,7 +275,7 @@
 
 .card-list li:nth-child(7) {
   background-image: url("../images/woman_in_white_tank_top_and_white_pants.jpg");
-  background-position: 0% 50%;
+  background-position: 0% 37%;
 }
 
 .card-list li:nth-child(8) {
@@ -358,6 +358,71 @@
   .course-detail-img {
     min-width: 418px;
     min-height: 418px;
+  }
+}
+
+.teachers-list .card {
+  max-width: 345px;
+  height: 418px;
+}
+
+@media (min-width: 768px) {
+  .teachers-list .card {
+    min-width: 330px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .teachers-list .card {
+    min-width: 350px;
+  }
+}
+
+.teachers-list .card:nth-of-type(1) .photo {
+  background-image: url("../images/teacher-1.png");
+}
+
+.teachers-list .card:nth-of-type(2) .photo {
+  background-image: url("../images/teacher-2.png");
+}
+
+.teachers-list .card:nth-of-type(3) .photo {
+  background-image: url("../images/teacher-4.png");
+}
+
+.teachers-list .card:nth-of-type(4) .photo {
+  background-image: url("../images/teacher-3.png");
+}
+
+.teachers-list .card:nth-of-type(even) .photo {
+  border: 4px solid #C0A4A5 !important;
+  border-radius: 50%;
+}
+
+.teachers-list .card:nth-of-type(odd) .photo {
+  border: 4px solid #907A7B !important;
+  border-radius: 50%;
+}
+
+.teachers-list .photo {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -48px;
+  left: 124.5px;
+}
+
+@media (min-width: 768px) {
+  .teachers-list .photo {
+    left: 117px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .teachers-list .photo {
+    left: 127px;
   }
 }
 
@@ -18356,7 +18421,7 @@ img {
   display: block;
 }
 
-ul {
+ul, li {
   list-style: none;
 }
 
