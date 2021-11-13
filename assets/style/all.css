@@ -236,9 +236,7 @@
 }
 
 .card-list li {
-  padding: 24px;
-  padding-top: 106px;
-  position: relative;
+  padding: 0 24px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -493,14 +491,12 @@
 @media (min-width: 768px) {
   .notation {
     min-width: 210px;
-    height: 390px;
   }
 }
 
 @media (min-width: 1200px) {
   .notation {
     min-width: 350px;
-    height: 350px;
   }
 }
 
