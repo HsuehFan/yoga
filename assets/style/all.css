@@ -426,6 +426,84 @@
   }
 }
 
+.surroundings .space {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 345px;
+  height: 350px;
+  padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .surroundings .space {
+    min-width: 210px;
+    height: 210px;
+    padding: 0 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .surroundings .space {
+    min-width: 350px;
+    height: 350px;
+    padding: 0 24px;
+  }
+}
+
+.surroundings .space:nth-of-type(1) {
+  max-width: 345px;
+  max-height: 350px;
+  background-image: url("../images/blue-swimming-pool-near-green-potted-plant.jpg");
+}
+
+@media (min-width: 768px) {
+  .surroundings .space:nth-of-type(1) {
+    min-width: 450px;
+    min-height: 216px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .surroundings .space:nth-of-type(1) {
+    min-width: 730px;
+    min-height: 350px;
+  }
+}
+
+.surroundings .space:nth-of-type(2) {
+  background-image: url("../images/carl_barcelo_nqUHQkuVj3c_unsplash.jpg");
+}
+
+.surroundings .space:nth-of-type(3) {
+  background-image: url("../images/white-ceramic-sink-near-white-ceramic-sink.jpg");
+}
+
+.surroundings .space:nth-of-type(4) {
+  background-image: url("../images/woman_in_black_sports_bra_and_blue_denim_jeans_doing_yoga.jpg");
+}
+
+.surroundings .space:nth-of-type(5) {
+  background-image: url("../images/sittin-people-beside-table-inside-room.jpg");
+}
+
+.notation {
+  width: 345px;
+}
+
+@media (min-width: 768px) {
+  .notation {
+    min-width: 210px;
+    height: 390px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .notation {
+    min-width: 350px;
+    height: 350px;
+  }
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
