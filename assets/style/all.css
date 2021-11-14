@@ -509,7 +509,7 @@
 
 @media (min-width: 768px) {
   .course-list .img {
-    min-width: 210px;
+    width: 210px;
     height: 161px;
   }
 }
