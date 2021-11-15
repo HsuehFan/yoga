@@ -561,6 +561,66 @@
   background-position: 0% 50%;
 }
 
+.curriculum {
+  width: 920px;
+}
+
+.curriculum tr th {
+  white-space: nowrap;
+  font-weight: 400;
+  border-bottom: 1px solid #C0A4A5;
+  max-width: 123px;
+  height: 40px;
+  padding: 8px 8px 7px 8px;
+}
+
+.curriculum tr th:nth-of-type(1) {
+  letter-spacing: -.8px;
+  max-width: 85px;
+  border-right: 1px solid #C0A4A5;
+  padding: 8px 4px 7px 4px;
+}
+
+.curriculum tr th:nth-of-type(3) {
+  background-color: #F5F0E7;
+}
+
+.curriculum tr th:nth-of-type(5) {
+  background-color: #F5F0E7;
+}
+
+.curriculum tr th:nth-of-type(7) {
+  background-color: #F5F0E7;
+}
+
+.curriculum tr:nth-of-type(1) th:nth-of-type(1) {
+  letter-spacing: normal;
+}
+
+.curriculum tr:nth-of-type(3) th:nth-of-type(1) {
+  letter-spacing: normal;
+}
+
+.curriculum tr:nth-of-type(4) th:nth-of-type(1) {
+  letter-spacing: normal;
+}
+
+.notesOfClass {
+  max-width: 920px;
+}
+
+@media (min-width: 768px) {
+  .notesOfClass {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .notesOfClass {
+    padding: 0 95px;
+  }
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -744,7 +804,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 small, .small {
@@ -10449,7 +10509,7 @@ fieldset:disabled .btn {
 }
 
 .fw-bolder {
-  font-weight: bolder !important;
+  font-weight: 900 !important;
 }
 
 .lh-1 {
