@@ -621,6 +621,38 @@
   }
 }
 
+.contactUs {
+  padding: 48px 15px 88px;
+}
+
+@media (min-width: 768px) {
+  .contactUs {
+    padding: 64px 99px 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contactUs {
+    padding: 64px 85px 110px 86px;
+  }
+}
+
+.contant-info {
+  max-width: 345px;
+}
+
+@media (min-width: 768px) {
+  .contant-info {
+    max-width: 570px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contant-info {
+    min-width: 445px;
+  }
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

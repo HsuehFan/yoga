@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DOYOGA reservation</title>
+    <title>DOYOGA Contact US</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -54,70 +54,51 @@
     </div>
     
     
-    <div class="reservation px-4 px-md-14 px-xl-21">
-        <div class="fs-3 text-rose text-center mb-12 mb-xl-5">立即預約</div>
-        <!-- menu section -->
-        <div class="d-flex justify-content-center mb-10">
-            <a href="#"><div class="btn btn-warning text-rose rounded-sp me-5 me-md-12 btn-md text-nowrap bg-rose-hover">選擇方案</div></a>
-            <a href="#"><div class="btn btn-warning text-rose rounded-sp btn-md text-nowrap bg-rose-hover me-5 me-md-12">填寫資料</div></a>
-            <a href="#"><div class="btn bg-rose rounded-sp text-white btn-md text-nowrap">完成預約</div></a>
-        </div><!-- menu section end-->
-        <div class="row justify-content-center pt-2 mb-12">
-            <div class="col-2 check-circle"></div>           
-            <span class="fs-5 text-rose text-center">已完成預約，以下是您的預約資訊:</span>
+<!-- Contact US -->
+    <div class="contactUs text-rose">
+        <div class="fs-3 mb-8 mb-md-12 text-center">聯絡我們</div>
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-center">
+                <!-- map section -->
+                <div class="show_map">
+                    <div class="row g-0">
+                        <ul class="col col-md-7">
+                            <li class="fs-4 mb-2">DOYOGA 教室位置</li>
+                            <li class="mb-2 mb-md-12 mb-xl-2">高雄市苓雅區北信街 23 號 2 樓</li>
+                            <li class="d-block d-md-none d-xl-bock">如何前往：</li>
+                            <li class="mb-8">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+                            <li class="mb-8">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+                            <li class="mb-15 mb-xl-0">3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- map section end -->
+                
+                <!-- contant info -->
+                <div class="contant-info rounded-sp bg-warning px-12 pt-12 pb-8 p-md-12">
+                    <div class="fs-5 mb-5 mb-md-8">意見回饋&問題詢問</div>
+                    <form action="" method="post">
+                        <div class="mb-5">
+                            <label for="name" class="form-label">姓名</label>
+                            <input type="text" class="form-control text-primary rounded-4" id="name" name="name" placeholder="請輸入您的姓名">
+                        </div>
+                        <div class="mb-5">
+                            <label for="E_mail" class="form-label">電子信箱</label>
+                            <input type="email" class="form-control text-primary rounded-4" id="E_mail" name="E-mail" placeholder="email@example.com">
+                        </div>
+                        <div class="mb-5">
+                            <label for="mobile_phone" class="form-label">手機號碼</label>
+                            <input type="tel" class="form-control text-primary rounded-4" id="mobile_phone" name="phone" placeholder="0912-345-678">
+                        </div>
+                            <label for="comment-info" class="form-label">意見回饋</label>
+                            <textarea class="form-control rounded-4 mb-5 mb-md-8" id="comment-info" rows="8"></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary rounded-5 text-white bg-rose-hover2 text-nowrap">送出</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- contant info end -->
         </div>
-        
-        <!-- information -->
-            <div class="col col-md-6 border rounded-2 border-primary px-0 mx-auto mb-8">
-                <div class="px-6 py-5 pb-md-4 d-flex justify-content-between bg-rose">
-                    <div class="text-white">預約資訊</div>
-                    <div class="arrow-down"></div>
-                </div>
-                <div class="px-6 py-5">
-                    <div class="d-flex align-items-center mb-5 ">
-                        <span class="fs-6 text-secondary me-2">您選擇的是</span>
-                        <span class="fs-5 text-primary">首次體驗課程-基礎</span>
-                    </div>          
-                    <div class="mb-2">
-                        <span class="text-rose">上課預約報到日：2021/07/21</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">預約人：Joanne Chen</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">年齡：18 歲</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">性別：女</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">上課預約報到日：2021/07/21</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">電子信箱：example123@gmail.com</span>
-                    </div>
-                    <div class="mb-2">
-                        <span class="text-rose">手機號碼：0912-345-678</span>
-                    </div>
-                </div>
-            </div>
-            <div class="fs-5 text-rose text-center mb-2">上課注意事項</div>
-            <div class="col col-md-4 mx-auto ">
-                <div class="text-rose">
-                    第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。
-                </div>
-                <div class="text-rose mb-12">
-                    如欲更改體驗時間請提前通知我們喔！
-                </div>
-                <a href="index.html"><div class="py-2 bg-primary fs-5 text-white text-center rounded-3 scale-hover">返回首頁</div></a>
-            </div>
-            
-            <!-- information end -->
-                    
-
-    </div>
-
-
+    </div><!-- Contact Us end-->
 
     
   </div>
