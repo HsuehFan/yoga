@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOYOGA reservation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+
+  </head>
+
+  <body class="fy-noto text-secondary">
+    <nav class="navbar navbar-expand-xl navbar-light bg-warning">
+      <div class="container-fluid px-md-14 px-xl-21">
+        <a class="navbar-brand d-inline-block me-0 pt-8 pb-8" href="index.html">Navbar</a>
+        <button class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-img p-0 m-0"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  mx-lg-auto" aria-current="page">
+            <li class="nav-item mx-lg-5 mb-2 mb-md-2 mb-xl-0">
+              <a class="nav-link text-secondary p-0"  href="./course.html">課程介紹</a>
+            </li>
+            <li class="nav-item mx-lg-5 mb-2 mb-md-2 mb-xl-0">
+              <a class="nav-link text-secondary p-0" href="./surroundings.html">瑜珈空間</a>
+            </li>
+            <li class="nav-item mx-lg-5 mb-2 mb-md-2 mb-xl-0">
+              <a class="nav-link text-secondary p-0" href="./curriculum.html">當月課表</a>
+            </li>
+
+          </ul>
+          <form class="d-flex mt-5 mt-md-5 mt-xl-0">
+            <a href="./reservation.html" class="d-inline-block btn btn-outline-secondary border border-1 rounded-sp me-5 py-2 px-5 bg-rose-hover2">立即預約</a>
+            <a href="./contact_us.html" class="d-inline-block btn btn-outline-secondary border border-1 rounded-sp py-2 px-5 bg-rose-hover2">聯絡我們</a>
+          
+          </form>
+        </div>
+      </div>
+    </nav>
+  <div class="container-fluid g-0 position-relative">
+    <div class="community-menu d-none d-xl-block position-fixed">
+      <div class="col me-3 ">
+        <ul>
+          <a href="https://www.facebook.com/"><li></li></a>
+          <a href="https://www.instagram.com/thenothingseal/"><li></li></a>
+          <a href="https://line.me/en/"><li></li></a>
+        </ul>
+      </div>
+    </div>
+    
+    
+    <div class="reservation px-4 px-md-14 px-xl-21">
+        <div class="fs-3 text-rose text-center mb-12 mb-xl-5">立即預約</div>
+        <!-- menu section -->
+        <div class="d-flex mb-13 mb-md-8 mb-xl-12 justify-content-center">
+            <a href="#"><div class="btn btn-warning text-rose rounded-sp me-5 me-md-12 btn-md text-nowrap bg-rose-hover">選擇方案</div></a>
+            <a href="#"><div class="btn bg-rose rounded-sp me-5 me-md-12 text-white btn-md text-nowrap">填寫資料</div></a>
+            <a href="#"><div class="btn btn-warning text-rose rounded-sp btn-md text-nowrap bg-rose-hover">完成預約</div></a>
+        </div><!-- menu section end-->
+        
+        <div class="d-flex justify-content-center align-items-center mb-8 mb-xl-12 ">
+            <span class="fs-6 text-secondary me-5">您選擇的是</span>
+            <span class="fs-5 text-primary">首次體驗課程-基礎</span>
+        </div>
+        
+        <!-- question from -->
+        <div class="row justify-content-center ">
+            <form class="fs-6 col col-md-6 col-xl-4 align-items-center px-md-3 px-xl-0 m-0">
+                <!-- question1 -->
+                <div class="mb-12">
+                    <p>1. 是否接觸過瑜珈？</p>
+                    <div class="form-check-inline">
+                            <input class="form-check-input text-rose" type="radio" name="question1" id="option1" value="是" checked>
+                            <label class=" me-12" for="option1">是</label>
+
+                            <input class="form-check-input" type="radio" name="question1" id="option2" value="否">
+                            <label class="form-check-label" for="option2">否</label>
+                    </div>
+                </div><!-- question1 end-->
+                <!-- question2 -->
+                <div class="mb-12">
+                    <p>2. 想改善的生活問題？</p>
+                    <div class="d-flex justify-content-between ">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex text-nowrap mb-5">
+                                <input type="checkbox" class="form-check-input" id="q2_option1" value="肌耐力不足">
+                                <label class="form-check-label" for="q2_option1">肌耐力不足</label>
+                            </div>
+                            <div class="d-flex text-nowrap">
+                                <input type="checkbox" class="form-check-input" id="q2_option4" value="姿勢不正">
+                                <label class="form-check-label" for="q2_option4">姿勢不正</label>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex text-nowrap mb-5">
+                                <input type="checkbox" class="form-check-input" id="q2_option2" value="柔軟度不佳">
+                                <label class="form-check-label" for="q2_option2">柔軟度不佳</label>
+                            </div>
+                            <div class="d-flex text-nowrap">
+                                <input type="checkbox" class="form-check-input" id="q2_option5" value="睡眠品質差">
+                                <label class="form-check-label" for="q2_option5">睡眠品質差</label>
+                            </div>      
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex text-nowrap mb-5">
+                                <input type="checkbox" class="form-check-input" id="q2_option3" value="壓力大">
+                                <label class="form-check-label" for="q2_option3">壓力大</label> 
+                            </div>
+                            <div class="d-flex text-nowrap">
+                                <input type="checkbox" class="form-check-input" id="q2_option6" value="注意力不足">
+                                <label class="form-check-label" for="q2_option6">注意力不足</label>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- question2 end -->
+                <!-- question3 -->
+                <div class="mb-12">
+                    <p>3. 每週累積運動量約為多少？</p>
+                    <div class="d-flex justify-content-start ">
+                        <div class="d-flex flex-column me-12">
+                            <div class="d-flex text-nowrap mb-5">
+                                <input type="radio" name="question3" class="form-check-input" id="q3_option1" checked>
+                                <label class="form-check-label" for="q3_option1">150分鐘以上</label>
+                            </div>
+                            <div class="d-flex text-nowrap">
+                                <input type="radio" name="question3" class="form-check-input" id="q3_option3">
+                                <label class="form-check-label" for="q3_option3">30～75分鐘</label>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex text-nowrap mb-5">
+                                <input type="radio" name="question3" class="form-check-input" id="q3_option2">
+                                <label class="form-check-label" for="q3_option2">75～150分鐘</label>
+                            </div>
+                            <div class="d-flex text-nowrap">
+                                <input type="radio" name="question3" class="form-check-input" id="q3_option4">
+                                <label class="form-check-label" for="q3_option4">30分鐘以下</label>
+                            </div>      
+                        </div>
+                    </div>
+                </div><!-- question3 end -->               
+                <!-- question4 -->
+                <div class="mb-12">
+                    <p class="mb-1">4. 上課預約報到日</p>
+                    <p class="fs-7 mb-3">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
+                    <input type="date" id="check_in" class="text-rose"> 
+                </div><!-- question4 end -->
+                <!-- question5 -->
+                <div class="mb-12">
+                    <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+                    <div class="d-flex justify-content-start mb-5">
+                        <div class="me-2">
+                            <label for="name" class="form-label text-rose">姓名：</label>
+                            <input type="tel" class="form-control text-primary" id="name" placeholder="請輸入您的姓名" required >
+                        </div>
+                        <div>
+                            <!-- <label for="age" class="form-label text-rose">年齡：</label>
+                            <input type="tel" class="form-control text-primary" id="age" placeholder="請輸入您的年齡" minlength="1" maxlength="2"  required> -->
+                            <label for="age" class="form-label text-rose">年齡：</label>
+                            <input type="number" class="form-control text-primary" id="age" placeholder="請輸入您的年齡" min="12"  maxlength="2" size="20" required>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <p class="text-rose mb-2">性別</p>
+                        <select name="sex" class="text-rose">
+                            <option selected value="femal">女</option>
+                            <option value="man">男</option>
+                        </select>
+                    </div>
+                    <div class="mb-5">
+                        <label for="email" class="form-label text-rose">電子信箱</label>
+                        <input type="email"  class="form-control text-primary" id="email" placeholder="emial@example.com"></input>
+                    </div>
+                    <div class="mb-12 mb-md-14">
+                        <label for="phone" class="form-label text-rose">手機號碼</label>
+                        <input type="tel"  class="form-control text-primary" id="phone" placeholder="0912-345-678"></input>
+                    </div>
+                    <a href="reservation_done.html" class="btn btn-primary text-white col-12 bg-rose-hover2">送出</a>
+                </div><!-- question5 end -->
+                
+            </form>
+        </div>
+        <!-- question from area end -->
+
+    </div>
+
+
+
+    
+  </div>
+    <footer class="footer col-12 bg-rose text-white">
+      <!-- foot-subscription-area -->
+      <div class="px-4 px-md-14 px-xl-21 d-flex flex-column flex-xl-row justify-content-between py-8 py-md-12 border-1 border-bottom border-white">
+          <div class="fs-3 mb-2 col-12 col-md-6 fw-normal">現在訂閱，獲得課程優惠碼！</div>
+          <form action="" class="col-12 col-md-4">
+            <div class="input-group">
+              <input type="email" class="form-control fs-5 text-rose" placeholder="輸入您的電子信箱" aria-label="Recipient's username" aria-describedby="submit">
+              <button class="btn btn-primary text-white fs-5" type="button" id="submit">訂閱</button>
+            </div>
+          </form>
+      </div> <!-- foot-subscription-area finish -->
+      <!-- foot-image-link-area -->
+      <div class="px-4 px-md-14 px-xl-21 py-8 py-md-12 ">
+        <div class="d-flex justify-content-between align-items-baseline">
+          <a href="index.html"><img src="./assets/images/DOYOGA.png" width="96px" height="31px" alt="index logo"></a>
+            <!-- ico-area -->
+            <ul class="d-block d-flex m-0 mb-8">
+              <li class="me-2"><a href="https://www.facebook.com/"><img src="./assets/images/facebook-brands1.png" width="24px" alt="facebook"></a></li>
+              <li class="me-2"><a href="https://www.instagram.com/thenothingseal/"><img src="./assets/images/instagram-brands1.png" width="24px"  alt="instagram"></a></li>
+              <li class="me-2"><a href="https://line.me/en/"><img src="./assets/images/line-brands1.png" width="24px"  alt="line"></a></li>
+            </ul>
+        </div>
+                <!-- line-menu-area -->
+        <a href="./course.html" class="d-block fs-6 mb-2 text-white">課程介紹</a>
+        <a href="./surroundings.html" class="d-block fs-6 mb-2 text-white">瑜珈空間</a>
+        <div class="col col-md-7 d-md-flex justify-content-md-between align-items-md-baseline">
+          <div class="fs-6 mb-2">當月課表</div>
+          <div class="fs-6 fw-normal">© 2021. All Rights Reserved.</div>
+        </div>
+
+      </div> <!-- foot-image-link-area finish -->
+
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    
+    <!-- swiper.js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script src="./assets/js/all.js"></script>
+
+  </body>
+
+</html>
